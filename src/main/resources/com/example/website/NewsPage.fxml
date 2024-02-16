@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="900.0" style="-fx-background-color: #76D7FA;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.website.NewsController">
+   <center>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="508.0" fitWidth="900.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/NewsPage.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="SportsButton" layoutX="486.0" layoutY="6.0" mnemonicParsing="false" prefHeight="10.0" prefWidth="65.0" style="-fx-background-color: #ffffff; -fx-background-radius: 50;" text="Sports" textFill="#57a6da">
+               <font>
+                  <Font name="Corbel" size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="TechnologyButton" layoutX="400.0" layoutY="6.0" mnemonicParsing="false" prefHeight="10.0" prefWidth="65.0" style="-fx-background-color: #ffffff; -fx-background-radius: 50;" text="Technology" textFill="#57a6da">
+               <font>
+                  <Font name="Corbel" size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="EconomyButton" layoutX="656.0" layoutY="6.0" mnemonicParsing="false" prefHeight="10.0" prefWidth="65.0" style="-fx-background-color: #ffffff; -fx-background-radius: 50;" text="Economy" textFill="#57a6da">
+               <font>
+                  <Font name="Corbel" size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="LiveButton" layoutX="571.0" layoutY="6.0" mnemonicParsing="false" prefHeight="10.0" prefWidth="65.0" style="-fx-background-color: #ffffff; -fx-background-radius: 50;" text="Live" textFill="#57a6da">
+               <font>
+                  <Font name="Corbel" size="10.0" />
+               </font>
+            </Button>
+            <Button fx:id="ExitButton" layoutX="829.0" layoutY="6.0" mnemonicParsing="false" prefHeight="10.0" prefWidth="65.0" style="-fx-background-color: #ffffff; -fx-background-radius: 50;" text="Exit" textFill="#57a6da">
+               <font>
+                  <Font name="Corbel" size="10.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
